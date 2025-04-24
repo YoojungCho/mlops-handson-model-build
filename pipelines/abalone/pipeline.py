@@ -573,7 +573,7 @@ def get_pipeline(
         path="evaluation.json",
     )
     step_eval = ProcessingStep(
-        name="EvaluateAbaloneModel",
+        name="Evaluate-Abalone-Model",
         step_args=step_args,
         property_files=[evaluation_report],
     )
